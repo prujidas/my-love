@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 3em;
+  color: #ff6f61;
+}
+
+.sub-title {
+  font-size: 1.5em;
+  color: #6f6f6f;
+}
+
+.main-content, .message-content {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.click-box {
+  text-align: center;
+}
+
+.click-link {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #ff6f61;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.click-link:hover {
+  background: #ff6f61;
+  color: white;
+}
+
+.important-dates, .sweet-message, .distance-info {
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1em;
+  color: #6f6f6f;
+}
